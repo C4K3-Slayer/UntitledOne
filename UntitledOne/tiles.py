@@ -89,7 +89,7 @@ class GuardRoom(MobRoom):
 
 class WinRoom(MapTile):
 	def intro_text(self):
-		return """You feel the hot sun beat down on your face. Your eyes strain as its glow reaches you in what feels like a lifetime. You are free"""
+		return """You feel the hot sun beat down on your face. Your eyes strain as its glow reaches you in the first time in what feels like a lifetime. You are free"""
 
 	def modify_player(self, player):
 		player.victory = True
